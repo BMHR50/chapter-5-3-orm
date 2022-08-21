@@ -1,0 +1,25 @@
+{
+  "name": "bingle_shop",
+  "version": "1.0.0",
+  "description": "challenge-gold",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "database",
+    "express",
+    "sequelize",
+    "psql"
+  ],
+  "author": "Bena Maharani",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  }
+}
